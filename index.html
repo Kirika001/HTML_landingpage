@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!--================Header Menu Area =================-->
+	<section class="navigation">
+		<div class="topnav" id="myTopnav">
+			<div class="topnav-brand">
+				<p>Genius</p>
+			</div>
+			<a href="#contact" class="menu_item active">contact</a>
+			<a href="#pricing" class="menu_item">pricing</a>
+			<a href="#about" class="menu_item">course</a>
+			<a href="#home" class="menu_item">home</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</section>
+
+	<!--================Header Menu Area =================-->
+
+	<!--================ Banner start =================-->      
+    <section class="banner mb-30px" id="home">
+      <div class="container">
+        <div class="row">
+              <img class="img-fluid" src="img/banner.png" alt="">
+            
+            <div class="banner-content">
+              <h1>Belajar Coding Dari Nol</h1>
+              <p>Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.</p>
+              <a class="button bg" href="#">Gabung Program Belajar</a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Banner end =================-->
+
+    <!--================ Course start =================-->
+
+    <section class="course" id="course">
+    	<div class="container">
+    		<div class="intro-title">
+    			<h2>Lakukan Percepatan dalam Belajar Coding</h2>
+    		</div>
+    		<div class="intro-subtitle">
+    			<p>Media belajar online yang akan membantumu mengembangkan keahlianmu dalam bidang pemrograman</p>
+    		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="card">
+    			<div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                    <i class="icon icon-Laptop icon--lg"></i>
+                    <h4>Online Course</h4>
+                    <div class="mt-4 mb-5"><p>Belajar coding dengan format video yang telah disusun secara sistematis dilengkapi dengan contoh kasus pengembangan proyek aplikasi</p></div> 
+                </div>
+                <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                    <i class="icon icon-Laptop icon--lg"></i>
+                    <h4>Interactive Coding</h4>
+                    <div class="mt-4 mb-5"><p>Belajar online dasar-dasar pemrograman dengan konsep belajar interaktif dimana pengguna dapat menulis kode program dan menjalankannya secara online</p></div> 
+                </div>
+                <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                    <i class="icon icon-Laptop icon--lg"></i>
+                    <h4>Live Webinar</h4>
+                    <div class="mt-4 mb-5"><p>Seminar online melalui video conference membahas info, tutorial dan tips seputar pemrograman dan teknologi diselenggarakan rutin 2 kali seminggu</p></div> 
+                </div>
+    		</div>
+    	</div>
+    	
+    </section>
+    <!--================ Course end =================-->
+
+  <script>
+  	function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+  			x.className += " responsive";
+  		} else {
+  			x.className = "topnav";
+  		}
+  	}
+
+  	var header = document.getElementById("myTopnav");
+	var btns = header.getElementsByClassName("menu_item");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function() {
+	  var current = document.getElementsByClassName("active");
+	  current[0].className = current[0].className.replace(" active", "");
+	  this.className += " active";
+	  });
+	}
+  </script>
+
+</body>
+</html>
