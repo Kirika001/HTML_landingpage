@@ -18,7 +18,6 @@ body {
 .main_menu-brand{
     float: right;        
     font-size: 20px;
-    color: #f2f2f2;
     text-align: center;
     font-weight: bold;
 
@@ -34,5 +33,40 @@ i{
   /*float: right;*/
 }
 
+/*header*/
 
+/*banner*/
+.banner {
+    /*position: relative;*/
+    background-color: #22195b;
+    /*background-size: cover;*/
+    /*background: url(../img/banner-bg.png) left center no-repeat;*/
+    padding: 90px 10px 60px 20px;
+    /*z-index: 1;*/
+    width: 100%;
+}
+
+.banner-content h1{
+  color: #fff;
+  margin-bottom: 22px;
+}
+
+.banner-content p{
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #21146a;
+    color: #3a414e;
+    transition: all .4s ease;
+}
 
