@@ -133,3 +133,21 @@ i{
 .unvalid{
   color: red;
 }
+
+/*footer*/
+.footer-area{
+  background: black;
+}
+
+.footer-area h3{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.footer-area .botton{
+  float: center;
+}
