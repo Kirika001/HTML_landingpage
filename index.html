@@ -14,18 +14,18 @@
 
   <!--================Header Menu Area =================-->
   <header class="header_area">
-    <div class="main_menu">
+    <div class="main_menu fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
         <div class="container">
           <a class="main_menu-brand" href="index.html">Genius-code</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav"  id="navbarSupportedContent">
+          <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+            <ul class="nav navbar-nav" >
               <li class="active"><a class="menu_item" href="#home">Beranda</a></li> 
-              <li class="nav-item active"><a class="menu_item" href="#class">Kelas</a></li> 
-              <li class="nav-item active"><a class="menu_item" href="#price">Harga</a></li> 
+              <li class="nav-item active"><a class="menu_item" href="#fitur">Fitur</a></li> 
+              <li class="nav-item active"><a class="menu_item" href="#pricing">Harga</a></li> 
               <li class="nav-item active"><a class="menu_item" href="#contact">Kontak</a></li> 
             </ul>
           </div> 
@@ -56,8 +56,8 @@
   </section>
   <!--================ Banner end =================-->
 	
-  <!--================ class section start =================-->      
-  <section class="section-class" id="class">
+  <!--================ feature section start =================-->  
+  <section class="section-margin" id="fitur">
     <div class="container">
       <div class="section-intro pb-85px text-center">
         <div class="intro-title">
@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="card text-center text-lg-left mb-4 mb-lg-0">
+            <div class="card content">
               <span class="card-icon">
                 <i class="fa fa-laptop"></i>
               </span>
@@ -80,7 +80,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card text-center text-lg-left mb-4 mb-lg-0">
+            <div class="card content">
               <span class="card-icon">
                 <i class="fas fa-code"></i>
               </span>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card text-center text-lg-left mb-4 mb-lg-0">
+            <div class="card content">
               <span class="card-icon">
                 <i class="fa fa-microphone"></i>
               </span>
@@ -101,7 +101,76 @@
       </div>
     </div>
   </section>
-  <!--================ class section end =================-->
+  <!--================ feature section end =================-->
+
+  <!--================ Pricing section start =================-->  
+  <section class="section-margin" id="pricing">
+    <div class="container">
+      <div class="section-intro text-center">
+        <p class="section-intro__subtitle">Modul belajar selalu diperbaharui dan ditambahkan secara berkala. Semakin lengkap, semakin banyak dan semakin baik dari waktu ke waktu.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <h4>Normal</h4>
+              
+              <h1 class="card-pricing__price"><span>$</span>45.00</h1>
+            </div>
+            <ul class="card-pricing__list">
+              <li class="valid fa fa-check"><i></i>Unlimited Entrance</li>
+              <li class="valid fa fa-check"><i></i>Paid Certificate</li>
+              <li class="unvalid fa fa-close"><i class=""></i>Day One Workshop</li>
+              <li class="unvalid fa fa-close"><i class=""></i>One Certificate</li>
+            </ul>
+            <div class="card-pricing__footer">
+              <button class="button button-light">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <h4>Advanced</h4>
+              
+              <h1 class="card-pricing__price"><span>$</span>55.00</h1>
+            </div>
+            <ul class="card-pricing__list">
+              <li class="valid fa fa-check"><i></i>Unlimited Entrance</li>
+              <li class="valid fa fa-check"><i></i>Paid Certificate</li>
+              <li class="unvalid fa fa-close"><i class=""></i>Day One Workshop</li>
+              <li class="unvalid fa fa-close"><i class=""></i>One Certificate</li>
+            </ul>
+            <div class="card-pricing__footer">
+              <button class="button button-light">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <h4>Ultimate</h4>
+              
+              <h1 class="card-pricing__price"><span>$</span>65.00</h1>
+            </div>
+            <ul class="card-pricing__list">
+              <li class="valid valid fa fa-check"><i></i>Unlimited Entrance</li>
+              <li class="valid valid fa fa-check"><i></i>Paid Certificate</li>
+              <li class="unvalid fa fa-close"><i class=""></i>Day One Workshop</li>
+              <li class="unvalid fa fa-close"><i class=""></i>One Certificate</li>
+            </ul>
+            <div class="card-pricing__footer">
+              <button class="button button-light">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ Pricing section end =================-->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>

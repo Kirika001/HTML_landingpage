@@ -8,9 +8,6 @@ body {
 .main_menu {
   overflow: hidden;
   background-color: #412fb3;
-  /*padding: 20px;*/
-  /*margin-right: 20px;*/
-  position: fixed;
   width: 100%;
   top: 0;
 }
@@ -72,10 +69,23 @@ i{
 
 /*banner*/
 
-/*kelas*/
-.section-class{
+/*fitur*/
+.section-margin{
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.section-intro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container{
+  margin-top: 40px;
+}
+
+.content{
+  height: 350px;
 }
 
 .card h4{
@@ -97,4 +107,29 @@ i{
 
 .card-icon i{
   color: grey;
+}
+
+/*fitur*/
+
+/*pricing*/
+.card-pricing__header h4{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-pricing__price{
+  margin-bottom: 30px;
+}
+
+.card-pricing__list i{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.valid{
+  color: green;
+}
+
+.unvalid{
+  color: red;
 }
